@@ -4,7 +4,9 @@
 # In[ ]:
 
 
-# Having reviewed two NLP library(NLTK,spaCy), I chose NLTK library. Since i do ont intend to adpot td-idf and word vector, instead count the numebr of matching tagged words. And NLTK performs better in sentence tokenization. NLTK enbales users to adpot classical rule-based approach and could be more explainable and transparent for analysis
+# Having reviewed two NLP library(NLTK,spaCy), I chose NLTK library. Since i do ont intend to adpot td-idf and word vector, 
+# instead count the numebr of matching tagged words. And NLTK performs better in sentence tokenization.
+# NLTK enbales users to adpot classical rule-based approach and could be more explainable and transparent for analysis
 
 
 # In[36]:
@@ -65,8 +67,6 @@ for i,p in enumerate(p_list):
         
 print("".join(s for _,s in st[::-1]))
 
-
-# In[ ]:
 
 
 
